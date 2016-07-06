@@ -1,19 +1,19 @@
 <?php
 /**
- * mithra62 - Encoding
+ * Jaeger
  *
  * @author		Eric Lamb <eric@mithra62.com>
  * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
  * @link		http://mithra62.com/
  * @version		1.0
- * @filesource 	./mithra62/Traits/Encoding.php
+ * @filesource 	./Traits/Encoding.php
  */
-namespace mithra62\Traits;
+namespace JaegerApp\Traits;
 
 use \ForceUTF8\Encoding as ForceUtf8;
 
 /**
- * mithra62 - String Encoding Trait
+ * Jaeger - String Encoding Trait
  *
  * Handles string conversion to utf-8
  *
