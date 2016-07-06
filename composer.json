@@ -1,0 +1,22 @@
+{
+	"name": "jaeger-app/encoding",
+	"description": "Will ensure UTF-8 encoding on strings.",
+	"require": {
+		"php": ">=5.4.0",
+		"neitanod/forceutf8": "^1.4"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.*"
+	},
+	"prefer-stable": true,
+	"authors": [{
+		"name": "Eric Lamb",
+		"email": "eric@mithra62.com"
+	}],
+	"autoload": {
+		"psr-4": {
+			"JaegerApp\\": "src"
+		}
+	},
+	"license": "MIT"
+}
